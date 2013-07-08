@@ -63,7 +63,6 @@ var clone = function(fn) {
     return fn.bind({});
 };
 
-var parseURL = function()
 
 if(require.main == module) {
     program
