@@ -76,7 +76,7 @@ if(require.main == module) {
         					console.error("Wrote %s", "file.html");
         					fs.writeFileSync("file.html", result);
         				}
-        			};)
+        			});
         		
         		, HTMLFILE_DEFAULT)
       //  .option('-f, --file <html_file>', 'Path to index.html', clone(assertFileExists), HTMLFILE_DEFAULT)
